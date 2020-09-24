@@ -203,18 +203,16 @@ export default function PrimarySearchAppBar() {
               </a>
             </IconButton>
             <IconButton>
-              <Badge>
-                <a
-                  id="profile"
-                  href="#profile"
-                  style={{
-                    textDecoration: "none",
-                    color: "black",
-                  }}
-                >
-                  <PersonIcon />
-                </a>
-              </Badge>
+              <a
+                id="profile"
+                href="#profile"
+                style={{
+                  textDecoration: "none",
+                  color: "black",
+                }}
+              >
+                <PersonIcon />
+              </a>
             </IconButton>
             <IconButton>
               <a
