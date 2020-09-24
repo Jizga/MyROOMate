@@ -11,8 +11,8 @@ import AccountCircle from "@material-ui/icons/AccountCircle";
 import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
-import profile from "../assets/icons/profile.png";
-import localitation from "../assets/icons/localitation.png";
+import PersonIcon from "@material-ui/icons/Person";
+import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -164,20 +164,22 @@ export default function PrimarySearchAppBar() {
     <div className={classes.grow}>
       <AppBar position="static" style={{ backgroundColor: "#DAD9D9" }}>
         <Toolbar>
-          <a
-            id="home"
-            href="#Home"
-            style={{ textDecoration: "none", color: "black" }}
-          >
-            <Typography
-              className={classes.title}
-              variant="h6"
-              noWrap
-              style={{ fontSize: 30 }}
+          <IconButton>
+            <a
+              id="home"
+              href="#Home"
+              style={{ textDecoration: "none", color: "black" }}
             >
-              MyROOMate
-            </Typography>
-          </a>
+              <Typography
+                className={classes.title}
+                variant="h6"
+                noWrap
+                style={{ fontSize: 30 }}
+              >
+                MyROOMate
+              </Typography>
+            </a>
+          </IconButton>
 
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
@@ -210,12 +212,7 @@ export default function PrimarySearchAppBar() {
                     color: "black",
                   }}
                 >
-                  <img
-                    src={profile}
-                    className="profile"
-                    alt="profile"
-                    style={{ width: 20, height: 20 }}
-                  />
+                  <PersonIcon />
                 </a>
               </Badge>
             </IconButton>
@@ -230,12 +227,7 @@ export default function PrimarySearchAppBar() {
                   color: "black",
                 }}
               >
-                <img
-                  src={localitation}
-                  className="localitation"
-                  alt="localitation"
-                  style={{ width: 20, height: 20 }}
-                />
+                <RoomOutlinedIcon />
               </a>
             </IconButton>
           </div>
