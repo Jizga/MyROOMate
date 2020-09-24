@@ -9,7 +9,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 
 const useStyles = makeStyles({
   root: {
-    width: 500,
+    width: "100%",
   },
 });
 
