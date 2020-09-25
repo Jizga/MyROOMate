@@ -1,78 +1,130 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
-import Grid from "@material-ui/core/Grid";
 import GrayRoomPicture from "../assets/images/PrincipalGrayRoom.jpg";
+import BlueRoomPicture from "../assets/images/PrincipalBlueRoom.jpg";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  },
-}));
-
-export default function FullWidthGrid() {
-  const classes = useStyles();
-
+export default function Home() {
   return (
-    <div className={classes.root}>
-      <Grid container spacing={3} style={{ marginTop: 10 }}>
-        <Grid item xs={12}>
-          <Paper
-            className={classes.paper}
-            style={{
-              backgroundColor: "#DAD9D9",
-              textAlign: "end",
-            }}
+    <div>
+      <div className="GrayRoom">
+        <div className="GrayRoomTitle" style={{ backgroundColor: "#DAD9D9" }}>
+          <a
+            id="GrayRoom"
+            href="#GrayRoom"
+            style={{ textDecoration: "none", color: "black" }}
           >
-            <text style={{ marginRight: 300 }}>GrayRoom</text>
-          </Paper>
-        </Grid>
-        <Grid item xs={12} sm={6} style={{ marginLeft: 40 }}>
-          <Paper
-            className={classes.paper}
-            style={{ padding: "33.33vh", backgroundColor: "#C4C4C4" }}
+            <h3 className="GrayRoom">GrayRoom</h3>
+          </a>
+        </div>
+        <div
+          className="GrayRoomArea"
+          style={{
+            width: "20rem",
+            height: "30rem",
+            backgroundColor: "#C4C4C4",
+          }}
+        >
+          <a
+            id="GrayRoom"
+            href="#GrayRoom"
+            style={{ textDecoration: "none", color: "black" }}
           >
             <img
               className="GrayRoomPicture"
               src={GrayRoomPicture}
               alt="GrayRoomPicture"
-              style={{
-                width: "15rem",
-                height: "25rem",
-              }}
+              style={{ width: "12rem", height: "20rem" }}
             />
-            <button className="morePictures">More pictures</button>
-            <Grid className="commentsArea"> Coments Area</Grid>
-            <button className="moreInfo">More information</button>
-            <button className="add">I LIKE IT!!</button>
-          </Paper>
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <Paper
-            className={classes.paper}
-            style={{
-              backgroundColor: "#DAD9D9",
-              textAlign: "end",
-            }}
+          </a>
+          <a
+            id="GrayRooMoreImg"
+            href="#GrayRoomPictures"
+            style={{ textDecoration: "none", color: "black" }}
           >
-            <text style={{ marginRight: 300 }}>BLueRoom</text>
-          </Paper>
-        </Grid>
-        <Grid item xs={6} sm={3}>
-          <Paper className={classes.paper}>xs=6 sm=3 HOLA?</Paper>
-        </Grid>
-        <Grid item xs={6} sm={3}>
-          <Paper className={classes.paper}>xs=6 sm=3</Paper>
-        </Grid>
-        <Grid item xs={6} sm={3}>
-          <Paper className={classes.paper}>xs=6 sm=3</Paper>
-        </Grid>
-      </Grid>
+            <button className="RooMoreImg">More pictures</button>
+          </a>
+          <a
+            id="GrayRooComments"
+            href="#GrayRoomCommentsArea"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <div className="RoomComments">Comments Area</div>
+          </a>
+          <a
+            id="GrayRooMoreInf"
+            href="#GrayRoom"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <button className="RooMoreInf">More Information</button>
+          </a>
+          <a
+            id="GrayRooAdd"
+            href="#Profile"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <button className="RoomAdd">I LIKE IT!!</button>
+          </a>
+        </div>
+      </div>
+      <div className="BlueRoom">
+        <div className="BlueRoomTitle" style={{ backgroundColor: "#DAD9D9" }}>
+          <a
+            id="BlueRoom"
+            href="#BlueRoom"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <h3 className="BlueRoom">BlueRoom</h3>
+          </a>
+        </div>
+        <div
+          className="BlueRoomArea"
+          style={{
+            width: "20rem",
+            height: "30rem",
+            backgroundColor: "#C4C4C4",
+          }}
+        >
+          <a
+            id="BlueRoom"
+            href="#BlueRoom"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <img
+              className="BlueRoomPicture"
+              src={BlueRoomPicture}
+              alt="BlueRoomPicture"
+              style={{ width: "12rem", height: "20rem" }}
+            />
+          </a>
+          <a
+            id="BlueRooMoreImg"
+            href="#BlueRoomPictures"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <button className="RooMoreImg">More pictures</button>
+          </a>
+          <a
+            id="BlueRooComments"
+            href="#BlueRoomCommentsArea"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <div className="RoomComments">Comments Area</div>
+          </a>
+          <a
+            id="BlueRooMoreInf"
+            href="#BlueRoom"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <button className="RooMoreInf">More Information</button>
+          </a>
+          <a
+            id="BlueRooAdd"
+            href="#Profile"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <button className="RoomAdd">I LIKE IT!!</button>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
