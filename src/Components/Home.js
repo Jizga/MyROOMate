@@ -1,10 +1,11 @@
 import React from "react";
 import GrayRoomPicture from "../assets/images/PrincipalGrayRoom.jpg";
 import BlueRoomPicture from "../assets/images/PrincipalBlueRoom.jpg";
+import "./Home.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className="Home">
       <div className="GrayRoom">
         <div className="GrayRoomTitle" style={{ backgroundColor: "#DAD9D9" }}>
           <a
@@ -12,17 +13,10 @@ export default function Home() {
             href="#GrayRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <h3 className="GrayRoom">GrayRoom</h3>
+            <h3 className="GrayRoomT">GrayRoom</h3>
           </a>
         </div>
-        <div
-          className="GrayRoomArea"
-          style={{
-            width: "20rem",
-            height: "30rem",
-            backgroundColor: "#C4C4C4",
-          }}
-        >
+        <div className="GrayRoomArea">
           <a
             id="GrayRoom"
             href="#GrayRoom"
@@ -32,7 +26,6 @@ export default function Home() {
               className="GrayRoomPicture"
               src={GrayRoomPicture}
               alt="GrayRoomPicture"
-              style={{ width: "12rem", height: "20rem" }}
             />
           </a>
           <a
@@ -40,7 +33,7 @@ export default function Home() {
             href="#GrayRoomPictures"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <button className="RooMoreImg">More pictures</button>
+            <button class="RooMoreImg">More pictures</button>
           </a>
           <a
             id="GrayRooComments"
@@ -54,14 +47,14 @@ export default function Home() {
             href="#GrayRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <button className="RooMoreInf">More Information</button>
+            <button class="RooMoreInf">More Information</button>
           </a>
           <a
             id="GrayRooAdd"
             href="#Profile"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <button className="RoomAdd">I LIKE IT!!</button>
+            <button class="RoomAdd">I LIKE IT!!</button>
           </a>
         </div>
       </div>
@@ -72,14 +65,14 @@ export default function Home() {
             href="#BlueRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <h3 className="BlueRoom">BlueRoom</h3>
+            <h3 className="BlueRoomT">BlueRoom</h3>
           </a>
         </div>
         <div
           className="BlueRoomArea"
           style={{
-            width: "20rem",
-            height: "30rem",
+            width: "30rem",
+            height: "40rem",
             backgroundColor: "#C4C4C4",
           }}
         >
@@ -92,7 +85,7 @@ export default function Home() {
               className="BlueRoomPicture"
               src={BlueRoomPicture}
               alt="BlueRoomPicture"
-              style={{ width: "12rem", height: "20rem" }}
+              style={{ width: "15rem", height: "25rem" }}
             />
           </a>
           <a
@@ -100,7 +93,7 @@ export default function Home() {
             href="#BlueRoomPictures"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <button className="RooMoreImg">More pictures</button>
+            <button class="RooMoreImg">More pictures</button>
           </a>
           <a
             id="BlueRooComments"
@@ -114,14 +107,14 @@ export default function Home() {
             href="#BlueRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <button className="RooMoreInf">More Information</button>
+            <button class="RooMoreInf">More Information</button>
           </a>
           <a
             id="BlueRooAdd"
             href="#Profile"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <button className="RoomAdd">I LIKE IT!!</button>
+            <button class="RoomAdd">I LIKE IT!!</button>
           </a>
         </div>
       </div>
