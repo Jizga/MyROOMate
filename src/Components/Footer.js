@@ -6,6 +6,7 @@ import LocationOnIcon from "@material-ui/icons/LocationOn";
 import PhoneInTalkIcon from "@material-ui/icons/PhoneInTalk";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const useStyles = makeStyles({
   root: {
@@ -70,6 +71,18 @@ export default function LabelBottomNavigation() {
           label="facebook"
           value="facebook"
           icon={<FacebookIcon />}
+        />
+      </a>
+      <a
+        id="linkedil"
+        href="https://www.linkedin.com/in/vivijazmin/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <BottomNavigationAction
+          label="linkedil"
+          value="inslinkediltagram"
+          icon={<LinkedInIcon />}
         />
       </a>
     </BottomNavigation>
