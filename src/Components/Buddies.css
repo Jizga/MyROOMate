@@ -1,3 +1,65 @@
-.Buddies {
-    
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display&display=swap");
+
+.title {
+  margin: 1rem 0 1rem 0;
+  grid-row: 1;
+  grid-column: 1 / 2;
+  width: 100vw;
+  height: 4rem;
+}
+.T {
+  color: rgb(68, 67, 67);
+  text-align: center;
+  font-family: "Nanum Myeongjo", serif;
+  padding-top: 1rem;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  grid-template-rows: repeat(6, 0.2fr);
+}
+
+.Pascual {
+  grid-column: 1 / 2;
+  grid-row: 1 / 5;
+  margin: 2rem 0 0 2rem;
+  height: 50rem;
+  width: 30rem;
+  background-color: #c4c4c4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.PasImg {
+  width: 30rem;
+  height: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 2rem 0 1rem 5rem;
+}
+
+.Felipe {
+  grid-column: 2 / 4;
+  grid-row: 1 / 5;
+  margin: 2rem 0 0 15rem;
+  width: 30rem;
+  height: 50rem;
+  background-color: #c4c4c4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.FeliImg {
+  width: 30rem;
+  height: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 2rem 0 1rem 5rem;
+}
+
+.description {
+  margin: 0.5rem 1.5rem 0 1.5rem;
+  padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  font-family: "Indie Flower", cursive;
+}
+
+.links {
+  grid-row: 6;
 }
