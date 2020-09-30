@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import Buddies from "./Components/Buddies";
 import GrayRoom from "./Components/GrayRoom";
 import BlueRoom from "./Components/BlueRoom";
+import Profile from "./Components/Profile";
 import "./App.css";
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
     <div className="App">
       <Nav />
       <Home />
-      <Buddies />
       <GrayRoom />
       <BlueRoom />
+      <Buddies />
+      <Profile />
       <Footer />
     </div>
   );
