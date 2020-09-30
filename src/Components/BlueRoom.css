@@ -1,0 +1,69 @@
+.title {
+    margin: 1rem 0 1rem 0;
+    width: 100vw;
+    height: 4rem;
+  }
+  .T {
+    color: rgb(68, 67, 67);
+    text-align: center;
+    font-family: "Nanum Myeongjo", serif;
+    padding-top: 1rem;
+  }
+  
+  .body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 0.5fr);
+    margin-top: 2.5rem;
+  }
+  .imgs {
+    grid-column: 1 / 3;
+    grid-row: 1 / 5;
+  }
+  .areaDescription {
+    grid-column: 3;
+    grid-row: 1 / 3;
+    width: 25rem;
+    height: 50rem;
+    background-color: #c4c4c4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .price {
+    color: rgb(68, 67, 67);
+    text-align: center;
+    font-family: "Nanum Myeongjo", serif;
+  }
+  .description {
+    margin: 1rem 1.5rem 0.5rem 1.5rem;
+  }
+  .btn {
+    background-color: #6f941abe;
+    opacity: 1.5;
+    padding: 0.6rem 1.5rem 0.6rem 1.5rem;
+    border-radius: 10px;
+    margin: 0.8rem 0.8rem 0.8rem 2rem;
+    color: black;
+    font-family: "Playfair Display", serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .commentsArea {
+    grid-column: 1 / 3;
+    grid-row: 3 / 7;
+    margin-top: 4rem;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+    font-family: "Indie Flower", cursive;
+  }
+  
+  .moreInfo {
+    grid-column: 3;
+    grid-row: 3 / 4;
+    margin: 5rem 0 0 3.5rem;
+    width: 18.5rem;
+    height: 10rem;
+    background-color: #c4c4c4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .pMoreInfo {
+    margin: 1.5rem 1.5rem 0 1.5rem;
+  }
