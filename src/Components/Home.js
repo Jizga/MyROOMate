@@ -37,10 +37,10 @@ export default function Home() {
             style={{ textDecoration: "none", color: "black" }}
           >
             <div className="RoomComments">
-              <div className="user">
+              <div className="users">
                 <AccountCircleOutlinedIcon />
               </div>
-              <p className="comment">
+              <p className="comments">
                 My name is Ileana, I'm a Ecuatorian woman and spent a great time
                 during my time here, 3 years ago.
               </p>
@@ -94,10 +94,10 @@ export default function Home() {
             style={{ textDecoration: "none", color: "black" }}
           >
             <div className="RoomComments">
-              <div className="user">
+              <div className="users">
                 <AccountCircleOutlinedIcon />
               </div>
-              <p className="comment">
+              <p className="comments">
                 My name is Katy and spent a great time in this flat during my
                 Erasmus, 2 years ago. Pascual and Felipe are wonderful
                 roommates.

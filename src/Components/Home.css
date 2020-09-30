@@ -55,12 +55,12 @@
   font-family: "Indie Flower", cursive;
   width: 22rem;
 }
-.user {
+.users {
   grid-column: 1;
-  margin: 0 0 0.5rem 0.5rem;
+  margin: 0 0 0.5rem 5rem;
   width: 0.5rem;
 }
-.comment {
+.comments {
   grid-column: 2 / 3;
   width: 20rem !important;
   margin: 0.2rem 0.2rem 0.2rem 5rem !important;
