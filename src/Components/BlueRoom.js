@@ -8,6 +8,7 @@ import bathroom from "../assets/images/bathroom.jpg";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
+import { Link } from "react-router-dom";
 import "./BlueRoom.css";
 
 export default function BlueRoom() {
@@ -88,7 +89,7 @@ export default function BlueRoom() {
           </div>
           <div className="areaDescription">
             <div className="description">
-              <h3 className="price">300€/mes</h3>
+              <h3 className="price">300€/month</h3>
               <p>
                 Room for rent in apartment with elevator in front of the
                 Ministries, in an area with a lot of atmosphere and bars of
@@ -106,7 +107,7 @@ export default function BlueRoom() {
               </p>
               <p>
                 The bathroom to share between two has a radiator and a dryer for
-                tenants.
+                guests.
               </p>
               <p>
                 The kitchen is fully equipped (dishwasher, washing machine,
@@ -114,13 +115,13 @@ export default function BlueRoom() {
               </p>
               <p>Preferably students or person up to 30 - 35 years old.</p>
             </div>
-            <a
-              id="BlueRooAdd"
-              href="#Profile"
+            <Link
+              id="BlueRoomAdd"
+              to="/Profile"
               style={{ textDecoration: "none", color: "black" }}
             >
-              <button className="btn">I LIKE IT!!</button>
-            </a>
+              <button class="btn">I LIKE IT!!</button>
+            </Link>
           </div>
 
           <div className="commentsArea">Comments Area</div>

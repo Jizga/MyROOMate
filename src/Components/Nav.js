@@ -13,6 +13,7 @@ import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import PersonIcon from "@material-ui/icons/Person";
 import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -165,9 +166,9 @@ export default function PrimarySearchAppBar() {
       <AppBar position="static" style={{ backgroundColor: "#DAD9D9" }}>
         <Toolbar>
           <IconButton>
-            <a
+            <Link
               id="home"
-              href="#Home"
+              to="/"
               style={{ textDecoration: "none", color: "black" }}
             >
               <Typography
@@ -178,19 +179,16 @@ export default function PrimarySearchAppBar() {
               >
                 MyROOMate
               </Typography>
-            </a>
+            </Link>
           </IconButton>
 
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="inherit">
-              <a
+              <Link
                 id="buddies"
-                href="#buddies"
-                style={{
-                  textDecoration: "none",
-                  color: "black",
-                }}
+                to="/buddies"
+                style={{ textDecoration: "none", color: "black" }}
               >
                 <Typography
                   className={classes.title}
@@ -200,19 +198,16 @@ export default function PrimarySearchAppBar() {
                 >
                   buddies
                 </Typography>
-              </a>
+              </Link>
             </IconButton>
             <IconButton>
-              <a
+              <Link
                 id="profile"
-                href="#profile"
-                style={{
-                  textDecoration: "none",
-                  color: "black",
-                }}
+                to="/profile"
+                style={{ textDecoration: "none", color: "black" }}
               >
                 <PersonIcon />
-              </a>
+              </Link>
             </IconButton>
             <IconButton>
               <a

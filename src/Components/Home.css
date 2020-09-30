@@ -112,6 +112,7 @@
   margin-right: 25rem;
   font-family: "Nanum Myeongjo", serif;
   margin-bottom: 5rem;
+  z-index: 100;
 }
 .BlueRoomArea {
   margin: 5.5rem 0 0 2rem;

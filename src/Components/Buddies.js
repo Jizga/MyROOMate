@@ -19,9 +19,9 @@ export default function Buddies() {
             className="description"
             style={{ width: "20rem", height: "25rem" }}
           >
-            Pascual is 24 years old, currently he is a waitres in the
-            restaurante 'La Taberna del Río', in the Judería. He has a degree in
-            CTA (Cience and Tecnology of Food).
+            Pascual is 24 years old, currently he is a waiter in the
+            restaurant 'La Taberna del Río', in the Judería. He has a degree in
+            STF (Science and Tecnology of Food).
           </p>
           <div className="links">
             <a

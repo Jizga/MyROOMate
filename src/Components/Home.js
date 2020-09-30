@@ -1,6 +1,7 @@
 import React from "react";
 import GrayRoomPicture from "../assets/images/PrincipalGrayRoom.jpg";
 import BlueRoomPicture from "../assets/images/PrincipalBlueRoom.jpg";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 export default function Home() {
@@ -8,18 +9,12 @@ export default function Home() {
     <div className="Home">
       <div className="GrayRoom">
         <div className="GrayRoomTitle" style={{ backgroundColor: "#DAD9D9" }}>
-          <a
-            id="GrayRoom"
-            href="#GrayRoom"
-            style={{ textDecoration: "none", color: "black" }}
-          >
-            <h3 className="GrayRoomT">GrayRoom</h3>
-          </a>
+          <h3 className="GrayRoomT">GrayRoom</h3>
         </div>
         <div className="GrayRoomArea">
-          <a
+          <Link
             id="GrayRoom"
-            href="#GrayRoom"
+            to="/GrayRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
             <img
@@ -27,46 +22,35 @@ export default function Home() {
               src={GrayRoomPicture}
               alt="GrayRoomPicture"
             />
-          </a>
-          <a
-            id="GrayRooMoreImg"
-            href="#GrayRoomPictures"
+          </Link>
+          <Link
+            id="GrayRoomAdd"
+            to="/Profile"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <button class="RooMoreImg">More pictures</button>
-          </a>
+            <button class="RoomAdd">I LIKE IT!!</button>
+          </Link>
           <a
             id="GrayRooComments"
             href="#GrayRoomCommentsArea"
             style={{ textDecoration: "none", color: "black" }}
           >
             <div className="RoomComments">Comments Area</div>
+            {/* // La zona de comentarios deberá de estar conectada con la zona de
+            comentarios de la página de GrayRoom // */}
           </a>
-          <a
-            id="GrayRooMoreInf"
-            href="#GrayRoom"
+          <Link
+            id="GrayRoom"
+            to="/GrayRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
             <button class="RooMoreInf">More Information</button>
-          </a>
-          <a
-            id="GrayRooAdd"
-            href="#Profile"
-            style={{ textDecoration: "none", color: "black" }}
-          >
-            <button class="RoomAdd">I LIKE IT!!</button>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="BlueRoom">
         <div className="BlueRoomTitle" style={{ backgroundColor: "#DAD9D9" }}>
-          <a
-            id="BlueRoom"
-            href="#BlueRoom"
-            style={{ textDecoration: "none", color: "black" }}
-          >
-            <h3 className="BlueRoomT">BlueRoom</h3>
-          </a>
+          <h3 className="BlueRoomT">BlueRoom</h3>
         </div>
         <div
           className="BlueRoomArea"
@@ -76,9 +60,9 @@ export default function Home() {
             backgroundColor: "#C4C4C4",
           }}
         >
-          <a
+          <Link
             id="BlueRoom"
-            href="#BlueRoom"
+            to="/BlueRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
             <img
@@ -87,35 +71,29 @@ export default function Home() {
               alt="BlueRoomPicture"
               style={{ width: "15rem", height: "25rem" }}
             />
-          </a>
-          <a
-            id="BlueRooMoreImg"
-            href="#BlueRoomPictures"
+          </Link>
+          <Link
+            id="BlueRoomAdd"
+            to="/Profile"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <button class="RooMoreImg">More pictures</button>
-          </a>
+            <button class="RoomAdd">I LIKE IT!!</button>
+          </Link>
           <a
             id="BlueRooComments"
             href="#BlueRoomCommentsArea"
             style={{ textDecoration: "none", color: "black" }}
           >
             <div className="RoomComments">Comments Area</div>
+            {/* // Aquí irán algunos de los comentarios de la pagina de BlueRoom // */}
           </a>
-          <a
-            id="BlueRooMoreInf"
-            href="#BlueRoom"
+          <Link
+            id="BlueRoom"
+            to="/BlueRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
             <button class="RooMoreInf">More Information</button>
-          </a>
-          <a
-            id="BlueRooAdd"
-            href="#Profile"
-            style={{ textDecoration: "none", color: "black" }}
-          >
-            <button class="RoomAdd">I LIKE IT!!</button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

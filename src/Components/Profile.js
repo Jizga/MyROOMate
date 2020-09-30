@@ -1,5 +1,5 @@
 import React from "react";
-import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined";
+import User from "../assets/images/whiteUser.png";
 import "./Profile.css";
 
 export default function Profile() {
@@ -9,7 +9,7 @@ export default function Profile() {
         <h3 className="T">Your Personal Area</h3>
       </div>
       <div className="body">
-        <i icon={<AccountCircleOutlinedIcon />} />
+        <img className="user" src={User} alt="user"></img>
       </div>
     </div>
   );
