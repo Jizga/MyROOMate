@@ -2,6 +2,7 @@ import React from "react";
 import GrayRoomPicture from "../assets/images/PrincipalGrayRoom.jpg";
 import BlueRoomPicture from "../assets/images/PrincipalBlueRoom.jpg";
 import { Link } from "react-router-dom";
+import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined";
 import "./Home.css";
 
 export default function Home() {
@@ -35,7 +36,15 @@ export default function Home() {
             to="/CommetsAreaGrayRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <div className="RoomComments">Comments Area</div>
+            <div className="RoomComments">
+              <div className="user">
+                <AccountCircleOutlinedIcon />
+              </div>
+              <p className="comment">
+                My name is Ileana, I'm a Ecuatorian woman and spent a great time
+                during my time here, 3 years ago.
+              </p>
+            </div>
             {/* // La zona de comentarios deberá de estar conectada con la zona de
             comentarios de la página de GrayRoom // */}
           </Link>
@@ -84,7 +93,16 @@ export default function Home() {
             to="/CommetsAreaBlueRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
-            <div className="RoomComments">Comments Area</div>
+            <div className="RoomComments">
+              <div className="user">
+                <AccountCircleOutlinedIcon />
+              </div>
+              <p className="comment">
+                My name is Katy and spent a great time in this flat during my
+                Erasmus, 2 years ago. Pascual and Felipe are wonderful
+                roommates.
+              </p>
+            </div>
             {/* // Aquí irán algunos de los comentarios de la pagina de BlueRoom // */}
           </Link>
           <Link
