@@ -10,6 +10,20 @@
   padding-top: 1rem;
 }
 .user {
+  width: 20rem;
+  height: 20rem;
+}
+
+.email {
   width: 2rem;
   height: 2rem;
+}
+.mobile {
+  width: 4rem;
+  height: 4rem;
+}
+
+.country{
+  width: 4rem;
+  height: 4rem;
 }
