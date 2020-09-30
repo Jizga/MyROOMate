@@ -15,7 +15,10 @@ export default function Buddies() {
       <div className="body" style={{ backgroundColor: "#9F9999" }}>
         <div className="Pascual">
           <img className="PasImg" src={Pas} alt="Pas"></img>
-          <p className="description">
+          <p
+            className="description"
+            style={{ width: "20rem", height: "25rem" }}
+          >
             Pascual is 24 years old, currently he is a waitres in the
             restaurante 'La Taberna del Río', in the Judería. He has a degree in
             CTA (Cience and Tecnology of Food).
@@ -49,7 +52,10 @@ export default function Buddies() {
         </div>
         <div className="Felipe" style={{ backgroundColor: "#C4C4C4" }}>
           <img className="FeliImg" src={Feli} alt="Pas"></img>
-          <p className="description">
+          <p
+            className="description"
+            style={{ width: "20rem", height: "25rem" }}
+          >
             Feli is 24 year old, the same years that Pascual because they are
             twins. Rigth now, Felipe is working as a cashier in a supermarket in
             Córdoba.

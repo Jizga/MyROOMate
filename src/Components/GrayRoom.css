@@ -1,0 +1,38 @@
+.title {
+  margin: 1rem 0 1rem 0;
+  width: 100vw;
+  height: 4rem;
+}
+.T {
+  color: rgb(68, 67, 67);
+  text-align: center;
+  font-family: "Nanum Myeongjo", serif;
+  padding-top: 1rem;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 0.5fr);
+}
+.imgs {
+  grid-column: 1 / 2;
+  grid-row: 1 / 5;
+}
+
+.description {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  width: 3rem;
+  height: 2rem;
+}
+
+.commentsArea {
+  grid-column: 2 / 3;
+  grid-row: 3 / 5;
+}
+
+.moreInfo {
+  grid-column: 2 / 3;
+  grid-row: 5;
+}
