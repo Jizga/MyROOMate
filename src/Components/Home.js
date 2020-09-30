@@ -30,15 +30,15 @@ export default function Home() {
           >
             <button class="RoomAdd">I LIKE IT!!</button>
           </Link>
-          <a
+          <Link
             id="GrayRooComments"
-            href="#GrayRoomCommentsArea"
+            to="/CommetsAreaGrayRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
             <div className="RoomComments">Comments Area</div>
             {/* // La zona de comentarios deberá de estar conectada con la zona de
             comentarios de la página de GrayRoom // */}
-          </a>
+          </Link>
           <Link
             id="GrayRoom"
             to="/GrayRoom"
@@ -79,14 +79,14 @@ export default function Home() {
           >
             <button class="RoomAdd">I LIKE IT!!</button>
           </Link>
-          <a
+          <Link
             id="BlueRooComments"
-            href="#BlueRoomCommentsArea"
+            to="/CommetsAreaBlueRoom"
             style={{ textDecoration: "none", color: "black" }}
           >
             <div className="RoomComments">Comments Area</div>
             {/* // Aquí irán algunos de los comentarios de la pagina de BlueRoom // */}
-          </a>
+          </Link>
           <Link
             id="BlueRoom"
             to="/BlueRoom"

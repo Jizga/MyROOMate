@@ -10,6 +10,7 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import { Link } from "react-router-dom";
 import "./GrayRoom.css";
+import CommentsArea from "./CommetsAreaGrayRoom";
 
 export default function GrayRoom() {
   return (
@@ -122,8 +123,10 @@ export default function GrayRoom() {
             <button class="btn">I LIKE IT!!</button>
           </Link>
         </div>
+        <div className="commentsArea">
+          <CommentsArea />
+        </div>
 
-        <div className="commentsArea">Comments Area</div>
         <div className="moreInfo">
           <p className="pMoreInfo">
             If you need more information, you can contact us by phone or email

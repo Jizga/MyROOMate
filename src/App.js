@@ -7,6 +7,8 @@ import Buddies from "./Components/Buddies";
 import GrayRoom from "./Components/GrayRoom";
 import BlueRoom from "./Components/BlueRoom";
 import Profile from "./Components/Profile";
+import CommetsAreaGrayRoom from "./Components/CommetsAreaGrayRoom";
+import CommetsAreaBlueRoom from "./Components/CommetsAreaBlueRoom";
 import "./App.css";
 
 function App() {
@@ -29,6 +31,12 @@ function App() {
           </Route>
           <Route path="/BlueRoom">
             <BlueRoom />
+          </Route>
+          <Route path="/CommetsAreaGrayRoom">
+            <CommetsAreaGrayRoom />
+          </Route>
+          <Route path="/CommetsAreaBlueRoom">
+            <CommetsAreaBlueRoom />
           </Route>
         </Switch>
         <Footer />

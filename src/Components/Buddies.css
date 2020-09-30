@@ -6,6 +6,7 @@
   margin: 1rem 0 1rem 0;
   width: 100vw;
   height: 4rem;
+  background-color: #dad9d9;
 }
 .T {
   color: rgb(68, 67, 67);
@@ -19,6 +20,7 @@
   grid-template-columns: repeat(4, 0.5fr);
   grid-template-rows: repeat(6, 0.2fr);
   margin-bottom: 6rem;
+  background-color: #9f9999;
 }
 
 .Pascual {
@@ -59,6 +61,7 @@
   font-family: "Indie Flower", cursive;
   grid-row: 3 / 5;
   text-align: center;
+  height: 25rem;
 }
 
 .links {

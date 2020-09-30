@@ -9,6 +9,7 @@ import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import { Link } from "react-router-dom";
+import CommentsArea from "./CommetsAreaBlueRoom";
 import "./BlueRoom.css";
 
 export default function BlueRoom() {
@@ -124,7 +125,9 @@ export default function BlueRoom() {
             </Link>
           </div>
 
-          <div className="commentsArea">Comments Area</div>
+          <div className="commentsArea">
+            <CommentsArea />
+          </div>
           <div className="moreInfo">
             <p className="pMoreInfo">
               If you need more information, you can contact us by phone or email
