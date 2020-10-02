@@ -2,6 +2,7 @@
   margin: 1rem 0 1rem 0;
   width: 100vw;
   height: 4rem;
+  background-color: #dad9d9;
 }
 .T {
   color: rgb(68, 67, 67);
@@ -23,7 +24,7 @@
   height: 4rem;
 }
 
-.country{
+.country {
   width: 4rem;
   height: 4rem;
 }

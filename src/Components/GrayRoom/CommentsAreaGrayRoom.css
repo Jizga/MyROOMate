@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+.commentsAreaGR {
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  margin-top: 2rem;
+}
+.userGR {
+  grid-column: 1;
+  margin: 0.2rem 0 0.2rem 10rem;
+  width: 0.5rem;
+  height: 1rem ;
+}
+.commentGR {
+  grid-column: 2 / 5;
+  width: 30.5rem;
+  height: 5rem;
+  margin: 0.2rem 0.2rem 0 0.5rem;
+  font-family: "Quicksand", sans-serif;
+}

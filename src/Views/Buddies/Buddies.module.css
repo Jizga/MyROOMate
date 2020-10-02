@@ -15,7 +15,7 @@
   padding-top: 1rem;
 }
 
-.body {
+.bodyBuddies {
   display: grid;
   grid-template-columns: repeat(4, 0.5fr);
   grid-template-rows: repeat(6, 0.2fr);
@@ -40,7 +40,7 @@
 }
 
 .Felipe {
-  grid-column: 2 / 4;
+  grid-column: 2 / 4 !important;
   grid-row: 1 / 6;
   margin: 2rem 0 0 8rem;
   width: 30rem;
@@ -55,7 +55,7 @@
   margin: 2rem 0 1rem 3.5rem;
 }
 
-.description {
+.descriptionBuddies {
   margin: 0.2rem 2rem 0 3rem;
   padding: 1rem;
   font-family: "Indie Flower", cursive;
