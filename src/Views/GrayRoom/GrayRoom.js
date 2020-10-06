@@ -10,7 +10,7 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import { Link } from "react-router-dom";
 import styles from "./GrayRoom.module.css";
-import CommentsArea from "../../Components/Comments-GrayRoom/CommetsAreaGrayRoom";
+import CommentsArea from "../../Components/GrayRoom/CommetsAreaGrayRoom";
 
 export default function GrayRoom() {
   return (
