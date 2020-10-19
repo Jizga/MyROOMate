@@ -78,6 +78,7 @@
   color: whitesmoke;
   font-family: "Playfair Display", serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 .RoomAdd {
   grid-column: 3 / 4;
@@ -92,6 +93,7 @@
   font-weight: bold;
   font-family: "Playfair Display", serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .BlueRoom {
