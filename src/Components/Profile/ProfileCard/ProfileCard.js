@@ -4,6 +4,7 @@ import email from "../../../assets/images/Icons/email.png";
 import mobile from "../../../assets/images/Icons/telefono-inteligente.png";
 import country from "../../../assets/images/Icons/country.png";
 import age from "../../../assets/images/Icons/AGE.png";
+import { Link } from "react-router-dom";
 import styles from "./ProfileCard.module.css";
 
 export default function ProfileCard() {
@@ -15,8 +16,33 @@ export default function ProfileCard() {
       <div className={styles.body}>
         <img className={styles.user} src={User} alt="user" />
 
-        <div className={styles.titleProfile}>Profile</div>
-
+        <div className={styles.titleProfile}>
+          <Link
+            id="userProfile"
+            to="/Profile"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            Profile
+          </Link>
+        </div>
+        <div className={styles.titleUserRoom}>
+          <Link
+            id="userRoom"
+            to="/YourRoomCard"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            Your Room
+          </Link>
+        </div>
+        <div className={styles.titleUserData}>
+          <Link
+            id="userData"
+            to="/AccessDataCard"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            Acess Data
+          </Link>
+        </div>
         <div className={styles.profile}>
           <div className={styles.fullName}>
             Full Name

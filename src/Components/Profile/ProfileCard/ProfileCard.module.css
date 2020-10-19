@@ -37,6 +37,34 @@
   font-weight: bold;
   font-size: medium;
 }
+
+.titleUserRoom {
+  background-color: #cf8383;
+  grid-column: 3;
+  grid-row: 1;
+  border: 0.1rem solid black;
+  margin: 10rem 0 0 0.3rem;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: medium;
+  width: 15rem;
+}
+
+.titleUserData {
+  background-color: #646060;
+  grid-column: 4;
+  grid-row: 1;
+  border: 0.1rem solid black;
+  border-bottom: 0.1rem solid black;
+  margin: 10rem 0 0 0.1rem;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: medium;
+  width: 15rem;
+}
+
 .profile {
   background-color: #c4c4c4;
   grid-column: 2 / 5;
