@@ -41,8 +41,8 @@
 }
 .GrayRoomPicture {
   margin-top: 2rem;
-  width: 15.5rem;
-  height: 25.5rem;
+  width: 18.5rem;
+  height: 28.5rem;
   border: solid rgb(41, 40, 40) 0.3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   grid-column: 2 / 4;
@@ -74,7 +74,7 @@
   opacity: 1.5;
   padding: 0.6rem 1.5rem 0.6rem 1.5rem;
   border-radius: 10px;
-  margin: 0.8rem 2rem 0.8rem 0.8rem;
+  margin: 1rem 2rem 0.8rem 0.8rem;
   color: whitesmoke;
   font-family: "Playfair Display", serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -128,8 +128,8 @@
 }
 .BlueRoomPicture {
   margin-top: 2rem;
-  width: 15.5rem;
-  height: 25.5rem;
+  width: 18.5rem;
+  height: 28.5rem;
   border: solid rgb(41, 40, 40) 0.3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   grid-column: 2 / 4;
