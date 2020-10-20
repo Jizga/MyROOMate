@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(5, 0.5fr);
+  grid-template-rows: repeat(7, 0.5fr);
+}
+
+.Room {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  margin: 3.5rem 30rem 0.5rem 0;
+}
+.RoomName {
+  grid-column: 3 / 5;
+  grid-row: 1 / 2;
+  margin: 1rem 0 0.2rem 3.8rem;
+  width: 30rem;
+  padding: 0.3rem;
+  background-color: #ebc2c2;
+  border-style: none;
+  border-radius: 0.25rem;
+}
+
+.payT {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 5rem;
+  margin: 0 17rem 0.2rem 0.5rem;
+  padding: 0.3rem;
+}
+.payImg {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 3rem 0.5rem 0.2rem 5.2rem;
+  cursor: pointer;
+}
+
+.calendarT {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+  margin: 0 17rem 0.2rem 0.5rem;
+  padding: 0.3rem;
+  width: 10rem;
+}
+.calendarImg {
+  width: 4rem;
+  height: 4rem;
+  grid-column: 3 / 5;
+  grid-row: 2 / 3;
+  margin: 2.5rem 1rem 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.RoomPictureImg {
+  width: 20rem;
+  height: 20rem;
+  grid-column: 3 / 5;
+  grid-row: 3 / 4;
+  margin: 2.5rem 1rem 0.2rem 0;
+}
+
+.comment {
+  grid-column: 2 / 3;
+  grid-row: 5;
+  margin: 4.5rem 5rem 1rem 1rem;
+}
+.commentInp {
+  grid-column: 2 / 3;
+  grid-row: 5 / 10;
+  height: 10rem;
+  width: 30rem;
+  margin: 1rem 5rem 0.2rem 5rem;
+  background-color: #ebc2c2;
+  border-style: none;
+  border-radius: 0.25rem;
+}
+
+.submit {
+  height: 1.5rem;
+  width: 30.5rem;
+  margin: 0 5rem 0 5.3rem;
+  border-style: none;
+  background-color: #9ac730c7;
+  opacity: 1.5;
+  border-radius: 10px;
+  border-color: #9ac730c7;
+  color: black;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}

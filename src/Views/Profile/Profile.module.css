@@ -1,0 +1,80 @@
+.title {
+  margin: 1rem 0 1rem 0;
+  width: 100vw;
+  height: 4rem;
+  background-color: #dad9d9;
+}
+.T {
+  color: rgb(68, 67, 67);
+  text-align: center;
+  font-family: "Nanum Myeongjo", serif;
+  padding-top: 1rem;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(5, 0.5fr);
+  grid-template-rows: repeat(2, 0.2fr);
+}
+
+.user {
+  width: 20rem;
+  height: 20rem;
+  margin: 1.5rem 0 0 2.5rem;
+  grid-column: 1;
+}
+
+.myBox {
+  background-color: #9f9999;
+}
+.appBar {
+  background-color: #9f9999;
+}
+
+.cards {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.titleProfile {
+  background-color: #c4c4c4;
+  grid-column: 2;
+  grid-row: 1;
+  border: 0.1rem solid black;
+  border-bottom: none;
+  border-bottom-style: none;
+  margin: 10rem 0 0 5rem;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  font-weight: bold;
+  font-size: medium;
+  width: 15rem;
+}
+
+.titleUserRoom {
+  background-color: #cf8383;
+  grid-column: 3;
+  grid-row: 1;
+  border: 0.1rem solid black;
+  border-bottom-style: none;
+  margin: 10rem 0 0 0.3rem;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  font-weight: bold;
+  font-size: medium;
+  width: 14.6rem;
+}
+
+.titleUserData {
+  background-color: #646060;
+  grid-column: 4;
+  grid-row: 1;
+  border: 0.1rem solid black;
+  border-bottom-style: none;
+  margin: 10rem 0 0 0.3rem;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  font-weight: bold;
+  font-size: medium;
+  width: 15rem;
+}
